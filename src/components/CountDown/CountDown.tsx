@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getRemainingTimeUntilMsTimestamp } from "./CountdownTimerUtils";
-import "./styles.css"
+import "./styles.css";
 
 type Props = {
   countdownTimestampMs: any;
@@ -27,15 +27,15 @@ const CountDown: React.FC<Props> = ({ countdownTimestampMs }) => {
     setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
   }
   return (
-    <div className="countdown-timer">
+    <div className="container countdown__container">
       <span>{remainingTime.days}</span>
-      <span>days</span>
+      <span>Días</span>
       <span className="two-numbers">{remainingTime.hours}</span>
-      <span>hours</span>
+      <span>Horas</span>
       <span className="two-numbers">{remainingTime.minutes}</span>
-      <span>minutes</span>
+      <span>Minutos</span>
       <span className="two-numbers">{remainingTime.seconds}</span>
-      <span>seconds</span>
+      <span>Segundos</span>
     </div>
   );
 };

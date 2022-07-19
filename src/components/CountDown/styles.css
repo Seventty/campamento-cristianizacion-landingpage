@@ -1,17 +1,14 @@
-.countdown-timer {
+.countdown__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  font-size: 30px;
   width: 600px;
   height: 100px;
-  border: 2px solid black;
-
-  font-family: "Oswald";
-  font-size: 30px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.countdown-timer span {
+
+.countdown__container span {
   margin-left: 5px;
   margin-right: 5px;
 }
