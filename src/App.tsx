@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Information, CountDown, Footer } from "./components";
+import { Header, Information, CountDown, Versicle, Footer } from "./components";
 import "./App.css";
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
       <Header/>
       <CountDown countdownTimestampMs={timestamp} />
       <Information/>
+      <Versicle/>
       <Footer/>
     </div>
   );

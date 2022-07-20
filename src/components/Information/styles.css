@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
 .services__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

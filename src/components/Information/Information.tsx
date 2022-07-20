@@ -9,7 +9,7 @@ import { RiHandHeartFill } from "react-icons/ri";
 
 const Information = () => {
   return (
-    <section id="information">
+    <section className="content">
       <h2>Informacion de campamento</h2>
 
       <div className="container services__container">

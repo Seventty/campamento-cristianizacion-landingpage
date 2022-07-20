@@ -1,0 +1,19 @@
+.content {
+  color: var(--color-white);
+}
+.content em {
+  color: var(--color-white);
+  font-style: normal;
+  padding: 0.1em 0.3em;
+  border-radius: 0.2em;
+  position: relative;
+  background: var(--color-white);
+  background: linear-gradient(to right, mediumturquoise, mediumpurple);
+  transform: skewX(-10deg);
+  display: inline-block;
+}
+
+.versicle__container {
+  padding: 2rem;
+  margin: 2rem auto;
+}
