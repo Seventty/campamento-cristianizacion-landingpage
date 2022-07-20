@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles.css"
+import "./styles.css";
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container" id="header">
-        <h1>GENERACION QUE GOLPEA</h1>
-       </div>
+        <span>GENERACION QUE GOLPEA</span>
+      </div>
     </header>
   );
 };
