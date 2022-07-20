@@ -74,12 +74,12 @@ section>h2 {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600) {
+/* @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
 }
-
+ */
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);

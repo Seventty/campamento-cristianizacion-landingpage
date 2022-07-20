@@ -7,11 +7,11 @@ const Versicle = () => {
       <h2>Exodos 13: 21-22</h2>
 
       <p className="content">
-        21 Y Jehová iba delante de ellos de día en una columna de nube{" "}
+        21: Y Jehová iba delante de ellos de día en una columna de nube{" "}
         <em>para guiarlos por el camino</em>, y de noche en una columna de fuego
         para alumbrarles, a fin de que anduviesen de día y de noche.
         <br />
-        22 <em>Nunca se apartó de delante del pueblo</em>la columna de nube de
+        22: <em>Nunca se apartó de delante del pueblo</em>la columna de nube de
         día, ni de noche la columna de fuego.
       </p>
     </section>
