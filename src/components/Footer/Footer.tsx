@@ -11,8 +11,7 @@ const Footer = () => {
       <h3>Campamento Juvenil Generación Que Golpea</h3>
       <h4>26 al 28 de Agosto 2022</h4>
       <small>
-        Vacaional Brisas del Mar, San Cristobal. Costo: RD$3,500P/P | + INF
-        809-529-4493
+        Vacaional Brisas del Mar, San Cristobal. Costo: RD$3,500P/P
       </small>
 
       <div className="footer__socials">
