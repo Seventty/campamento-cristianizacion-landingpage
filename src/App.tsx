@@ -7,7 +7,7 @@ const App = () => {
   const timestamp: number = 2 * 3 * 55 * 60 * 60 * 1000 + defaultstamp;
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <CountDown countdownTimestampMs={timestamp} />
       <Information/>
       <Versicle/>
