@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Information, CountDown, Versicle, Footer } from "./components";
+import { Information, CountDown, Versicle, Footer } from "./components";
 import "./App.css";
 
 const App = () => {
