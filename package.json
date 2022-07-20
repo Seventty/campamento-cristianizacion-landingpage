@@ -22,9 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "vite --host --port 3000",
-    "build": "tsc && vite build",
-    "serve": "vite preview",
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
