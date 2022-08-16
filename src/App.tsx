@@ -3,8 +3,8 @@ import { Information, CountDown, Versicle, Footer } from "./components";
 import "./App.css";
 
 const App = () => {
-  const defaultstamp: number = 1659983662000;
-  const timestamp: number = 2 * 3 * 55 * 60 * 60 * 1000 + defaultstamp;
+  const defaultstamp: number = 1659999662000;
+  const timestamp: number = 2 * 3 * 75 * 60 * 60 * 1000 + defaultstamp;
   return (
     <div>
       {/* <Header/> */}
